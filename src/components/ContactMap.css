@@ -1,0 +1,51 @@
+.ContactMap h1 {
+    margin-bottom: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.form-container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.form-container form input,
+.form-container form textarea {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #818a91;
+    font-size: 18px;
+    min-height: 59px;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+
+.form-container form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
+.form-container form input[type="submit"]:hover {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.form-container form textarea {
+    min-height: auto;
+}
